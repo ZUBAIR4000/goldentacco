@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Search Engine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #4285f4;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    label {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+
+    input[type="text"] {
+      font-size: 14px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    button[type="submit"] {
+      font-size: 18px;
+      background-color: #3367d6;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #1a54c4;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Gold Tacco</h1>
+    <h2>Lite & Super Fast Search Engine</h2>
+  </header>
+
+  <form action="https://www.google.com/search" method="get">
+    <input type="text" id="search-term" name="q" placeholder="Enter your search term" autofocus>
+    <button type="submit">Search</button>
+  </form>
+
+  <footer>
+    &copy; 2023 Gold Tacco Search Engine. All rights reserved.
+  </footer>
+</body>
+</html>
+
+
